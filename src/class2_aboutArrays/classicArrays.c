@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "class2.h"
 
 void classicArrays() {
     int numbers[5];

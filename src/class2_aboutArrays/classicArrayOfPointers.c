@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include "class2.h"
 
 void classicArrayOfPointers() {
-
     char *words[3];
     
     words[0] = "Hello";

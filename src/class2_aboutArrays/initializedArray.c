@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include "class2.h"
 
 void initializedArray() {
-    
     int numbers[] = {10, 20, 30, 40, 50};
     int size = sizeof(numbers) / sizeof(numbers[0]);
 

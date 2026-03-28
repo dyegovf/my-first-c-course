@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include "class2.h"
 
 void initializedArrayOfPointers() {
-    
     char *words[] = {"Hello", "World", "C"};
     int size = sizeof(words) / sizeof(words[0]);
 

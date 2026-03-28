@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "class1.h"
 
 void calculator() {
     int option;

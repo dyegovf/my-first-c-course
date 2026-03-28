@@ -1,16 +1,8 @@
 #include <stdio.h>
-#include "class1a_usingScanf.c"
-#include "class1b_usingFgets.c"
-#include "class1c_formattedOutput.c"
-#include "class1d_datatypes.c"
-#include "class1e_calculator.c"
-#include "class2_madLibsGame.c"
-#include "class3a_classicArray.c"
-#include "class3a_initializedArray.c"
-#include "class3b_classicArrayOfArrays.c"
-#include "class3b_initializedArrayOfArrays.c"
+#include "src/class1_basicConcepts/class1.h"
+#include "src/class2_aboutArrays/class2.h"
 
-int main() {    
-    classicArrays();
+int main() {
+    usingFgets(); 
     return 0;
 }

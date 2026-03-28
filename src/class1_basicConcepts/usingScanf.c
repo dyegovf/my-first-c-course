@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "class1.h"
 
 void usingScanf() {
     char name[20];

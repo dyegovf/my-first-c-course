@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include "class1.h"
 
 void formattedOutput() {
     char characterName[50];

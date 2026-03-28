@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
+#include "class2.h"
 
 void classicArrayOfArrays() {
-    
     char words[3][20] = {"Hello", "World", "C"};
 
     printf("Array of arrays (editable):\n");

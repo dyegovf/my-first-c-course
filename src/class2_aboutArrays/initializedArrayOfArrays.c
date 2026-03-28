@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include "class2.h"
 
 void initializedArrayOfArrays() {
-    
     char words[][20] = {"Apple", "Banana", "Cherry"};
     int size = sizeof(words) / sizeof(words[0]);
 
