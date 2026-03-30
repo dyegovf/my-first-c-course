@@ -1,13 +1,62 @@
-# My First C Course
-It demonstrates progress in topics such as:
-- Data input and output (`scanf`, `fgets`, `printf`)
-- Basic data types (`int`, `char`, `float`, `double`, `string`)
-- Formatted output and interpolation
-- Arrays (classic arrays, initialized arrays, arrays of arrays)
-- Pointers (arrays of pointers, pointer variables for strings and chars)
-- String manipulation (`strcpy`, direct access to characters)
-- Control structures (`for`, `switch`, `if/else`)
-- Simple applications (calculator, Mad Libs game)
+## My First C Course
+
+This repository demonstrates my progress in learning C programming, following the course structure and topics covered:
+
+⭐️ **Course Contents** ⭐️
+
+- **Introduction**
+  - Setting up the environment (Windows and Mac)
+  - First program: Hello World
+  - Drawing shapes with text output
+- **Variables and Data Types**
+  - Declaring and using variables
+  - Basic data types: `int`, `char`, `float`, `double`, `string`
+  - Constants and comments
+- **Input and Output**
+  - Using `printf` for formatted output
+  - Getting user input with `scanf` and `fgets`
+- **Working with Numbers**
+  - Arithmetic operations
+  - Formatted printing and interpolation
+- **Applications**
+  - Building a basic calculator (arithmetic operations, user input)
+  - Building a Mad Libs game (string input, concatenation, formatted output)
+  - Building a better calculator (using `switch` for operator selection)
+  - Building a guessing game (loops, conditionals, user interaction)
+- **Control Structures**
+  - `if/else` statements
+  - `switch` statements
+  - `for` loops
+  - `while` loops
+  - Nested loops with 2D arrays
+- **Functions**
+  - Defining and calling functions
+  - Return statements
+  - Passing parameters
+- **Arrays**
+  - Classic arrays
+  - Initialized arrays
+  - 2D arrays and nested loops
+- **Structs**
+  - Defining composite types with `struct`
+  - Initializing structs
+  - Arrays of structs
+  - Passing structs to functions
+  - Using `typedef` to simplify type names
+- **Pointers**
+  - Memory addresses
+  - Pointer variables
+  - Dereferencing pointers
+  - Arrays of pointers
+- **String Manipulation**
+  - Copying strings with `strcpy` and `strncpy`
+  - Direct character access
+- **File Handling**
+  - Writing files
+  - Reading files
+- **Memory Concepts**
+  - Difference between initialization and assignment in arrays
+  - Memory layout and alignment in structs
 
 ## How to Compile one File and Run
 All source files are located in the project.  
