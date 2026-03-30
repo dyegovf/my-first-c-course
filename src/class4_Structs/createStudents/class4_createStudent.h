@@ -1,5 +1,5 @@
-#ifndef CLASS4_H
-#define CLASS4_H
+#ifndef CLASS4_CREATESTUDENT_H
+#define CLASS4_CREATESTUDENT_H
 
 struct createStudent {
     char name[50];

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "createStudent.h"
+#include "class4_createStudent.h"
 
 double calculateGPA(struct createStudent Student[], int qtd) {
     double totalGPA = 0.0;
