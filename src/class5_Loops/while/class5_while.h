@@ -1,5 +1,5 @@
-#ifndef CLASS5_H
-#define CLASS5_H
+#ifndef CLASS5_WHILE_LOOP_H
+#define CLASS5_WHILE_LOOP_H
 
 void whileLoop(int qtd);
 void guessingGame(int numberToGuess, int guessLimit);

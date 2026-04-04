@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "class5.h"
+#include "class5_while.h"
 
 void whileLoop(int qtd) {
     int i = 0;

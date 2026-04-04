@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "class5_while.h"
 
 void guessingGame(int numberToGuess, int guessLimit) {
     int userGuess = 0;
