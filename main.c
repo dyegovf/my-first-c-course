@@ -8,11 +8,12 @@
 #include "src/class5_Loops/for/class5_for.h"
 #include "src/class6_2D_Arrays/class6.h"
 #include "src/class7_memoryAdresses/class7.h"
+#include "src/class8_pointers/class8.h"
 
 
 int main() {
 
-   printMemoryAddresses(30, 3.5, 'A');
+    printPointers(30, 3.5, 'A');
 
     return 0;
 }
