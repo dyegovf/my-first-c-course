@@ -1,8 +1,21 @@
-## My First C Course
+# My First C Course - Learning Progress
 
-This repository demonstrates my progress in learning C programming, following the course structure and topics covered:
+This repository demonstrates my progress in learning C programming, following the course structure and topics covered below.
 
-⭐️ **Course Contents** ⭐️
+## Table of Contents
+
+- [Reference Course](#reference-course)
+- [Course Contents](#course-contents)
+- [How to Compile one File and Run](#how-to-compile-one-file-and-run)
+- [How to Compile Multiple Files and Run](#how-to-compile-multiples-files-and-run)
+- [How to Compile All Files and Run](#how-to-compile-all-files-and-run)
+- [Next Steps](#next-steps)
+
+## Reference Course
+
+[C COURSE - YouTube](https://www.youtube.com/watch?v=KJgsSFOSQv0)
+
+## Course Contents
 
 - **Introduction**
   - Setting up the environment (Windows and Mac)
@@ -59,6 +72,7 @@ This repository demonstrates my progress in learning C programming, following th
   - Memory layout and alignment in structs
 
 ## How to Compile one File and Run
+
 All source files are located in the project.  
 To compile an exercise, use `gcc` and specify the file name:
 
@@ -68,6 +82,7 @@ gcc main.c src/folderName/fileName.c -o fileName
 ```
 
 ## How to compile multiples Files and Run
+
 If you want to compile multiple source files together (for example, combining main.c with several modules):
 
 ```bash
@@ -76,9 +91,16 @@ gcc main.c src/folderName/file1.c src/folderName/file2.c -o program
 ```
 
 ## How to compile All Files and Run
+
 You can also compile all source files in a folder at once using the `*` wildcard:
 
 ```bash
 gcc main.c src/folderName/*.c -o program
 ./program
 ```
+
+## Next Steps
+
+- Practice more with pointers and memory management
+- Explore dynamic memory allocation (`malloc`, `free`)
+- Start small projects (e.g., text-based games, file parsers)
